@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#fff8f0;
+}
+
+header{
+    background:#8b2c00;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.recipes{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:350px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card h2{
+    color:#8b2c00;
+}
+
+.card p{
+    font-size:15px;
+    line-height:1.5;
+}
+
+.card button{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background:#e65c00;
+}
+
+.contact{
+    background:#2b0d00;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.contact input{
+    display:block;
+    width:300px;
+    margin:10px auto;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+}
+
+.send{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:12px 40px;
+    border-radius:25px;
+    cursor:pointer;
+    margin-top:15px;
+}
