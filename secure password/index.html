@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathan Password Vault</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="icon">🔐</div>
+
+    <h1>Mathan Password <span>Vault</span></h1>
+
+    <p class="subtitle">
+      Create strong, secure, and unique passwords instantly
+    </p>
+
+    <div class="output-box">
+      <input type="text" id="password" readonly>
+      <button class="copy-btn" onclick="copyPassword()">📋</button>
+    </div>
+
+    <div class="controls">
+
+      <div class="control-row">
+        <label>Password Length</label>
+        <span id="lengthValue">12</span>
+      </div>
+
+      <input type="range" id="length" min="8" max="32" value="12">
+
+    </div>
+
+    <button class="generate-btn" onclick="generatePassword()">
+      Generate Strong Password
+    </button>
+
+    <p id="message"></p>
+
+    <div class="footer">
+      Created by <span>Mathan</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
